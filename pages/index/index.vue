@@ -31,6 +31,8 @@ export default {
 			  url: 'https://s1.328888.xyz/2022/08/02/Olggr.jpg',
 			  success(res) {
 				  console.log(res)
+				  
+				  
 				  //图片本地地址转base64
 				// pathToBase64(res.path)
 				//   .then(base64 => {
@@ -39,7 +41,7 @@ export default {
 				//   .catch(error => {
 				//     console.error(error)
 				//   })
-			  } 
+			  }  
 			})
 		}
 	  	,
